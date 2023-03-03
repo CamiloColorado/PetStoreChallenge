@@ -1,0 +1,41 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1677794083.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "approved",
+    "placed",
+    "delivered"
+  ],
+  "properties": {
+    "approved": {
+      "$id": "#root/approved",
+      "title": "Approved",
+      "type": "integer",
+      "examples": [
+        290
+      ],
+      "default": 0
+    },
+    "placed": {
+      "$id": "#root/placed",
+      "title": "Placed",
+      "type": "integer",
+      "examples": [
+        100
+      ],
+      "default": 0
+    },
+    "delivered": {
+      "$id": "#root/delivered",
+      "title": "Delivered",
+      "type": "integer",
+      "examples": [
+        50
+      ],
+      "default": 0
+    }
+  }
+}

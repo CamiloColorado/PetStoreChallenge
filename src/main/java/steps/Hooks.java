@@ -12,8 +12,8 @@ import utilities.EnvironmentReader;
 public class Hooks {
 
     @Before
-    public void setup(Scenario scenario){
-        if (null != System.getProperty("log")){
+    public void setup(Scenario scenario) {
+        if (null != System.getProperty("log")) {
             RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter(), new ErrorLoggingFilter());
         }
         DataStorage dataStorage = new DataStorage();

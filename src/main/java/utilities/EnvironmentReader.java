@@ -7,7 +7,7 @@ public class EnvironmentReader {
 
     public static Properties properties = new Properties();
 
-    public static void load(){
+    public static void load() {
         try {
             properties.load(EnvironmentReader.class.getClassLoader()
                     .getResourceAsStream("properties/environment.properties"));
@@ -17,7 +17,7 @@ public class EnvironmentReader {
         }
     }
 
-    public static String getUrl(){
+    public static String getUrl() {
         return properties.getProperty("url");
     }
 

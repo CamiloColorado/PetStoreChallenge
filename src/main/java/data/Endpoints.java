@@ -32,7 +32,7 @@ public abstract class Endpoints {
 
     public static final String USER = "/user";
 
-    public static final String USER_LIST= "/user/createWithList";
+    public static final String USER_LIST = "/user/createWithList";
 
     public static final String USER_LOGIN = "/user/login";
 

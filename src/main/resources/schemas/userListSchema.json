@@ -1,0 +1,104 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1677794293.json",
+  "title": "Root",
+  "type": "array",
+  "default": [],
+  "items":{
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": [
+      "id",
+      "username",
+      "firstName",
+      "lastName",
+      "email",
+      "password",
+      "phone",
+      "userStatus"
+    ],
+    "properties": {
+      "id": {
+        "$id": "#root/items/id",
+        "title": "Id",
+        "type": "integer",
+        "examples": [
+          49
+        ],
+        "default": 0
+      },
+      "username": {
+        "$id": "#root/items/username",
+        "title": "Username",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "emilio.grady"
+        ],
+        "pattern": "^.*$"
+      },
+      "firstName": {
+        "$id": "#root/items/firstName",
+        "title": "Firstname",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Felipe"
+        ],
+        "pattern": "^.*$"
+      },
+      "lastName": {
+        "$id": "#root/items/lastName",
+        "title": "Lastname",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Sauer"
+        ],
+        "pattern": "^.*$"
+      },
+      "email": {
+        "$id": "#root/items/email",
+        "title": "Email",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "Felipe.Sauer@email.com"
+        ],
+        "pattern": "^.*$"
+      },
+      "password": {
+        "$id": "#root/items/password",
+        "title": "Password",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "4237003613"
+        ],
+        "pattern": "^.*$"
+      },
+      "phone": {
+        "$id": "#root/items/phone",
+        "title": "Phone",
+        "type": "string",
+        "default": "",
+        "examples": [
+          "1-851-671-3398"
+        ],
+        "pattern": "^.*$"
+      },
+      "userStatus": {
+        "$id": "#root/items/userStatus",
+        "title": "Userstatus",
+        "type": "integer",
+        "examples": [
+          1
+        ],
+        "default": 0
+      }
+    }
+  }
+
+}
